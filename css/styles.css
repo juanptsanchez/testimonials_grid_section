@@ -1,0 +1,129 @@
+/* ========================================= 
+VARIABLES FONTS
+=========================================== */
+:root {
+/* BODY FONT */
+--bodyFont: 'Barlow Semi Condensed', sans-serif;
+/* TEXT COLOR */
+--subTextColor: #adb6c5;
+}
+
+/* ========================================= 
+BOX-SIZING / FONT SIZE
+=========================================== */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* ================================================
+GLOBAL
+================================================ */
+body {
+    font-family: var(--bodyFont);
+    font-size: 1.3rem;
+    background-color: hsl(0, 0%, 81%);
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* ================================================
+MAIN GRID
+================================================ */
+.main--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 3.5rem;
+}
+
+/* ================================================
+CARDS
+================================================ */
+.card {
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.card:first-of-type {
+    margin-top: 4rem;
+}
+
+/* BACKGROUND - FONT COLOR */
+.card1 {
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+}
+.card1, .card3, .card5 {
+    background-color: #FFF;
+}
+.card2 {
+    background-color: hsl(217, 19%, 35%);
+}
+.card4 {
+    background-color: hsl(219, 29%, 14%);
+}
+.card2, .card4 {
+    color: #FFF;
+}
+
+/* CARD CONTENT */
+
+/* HEADING */
+.card__heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.head__img img {
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+/* HEADING TEXT */
+.head__txt {
+    font-weight: 500;
+}
+.head__txt span {
+    color: var(--subTextColor);
+    font-weight: 300;
+}
+.card1 span, .card3 span, .card5 span {
+    color: hsl(217, 19%, 35%);
+}
+
+/* CARD TEXT */
+.review {
+    font-size: 2rem;
+    margin-top: 0;
+}
+.quote {
+    color: var(--subTextColor);
+    font-weight: 300;
+}
+.card1 .card__txt .quote, .card3 .card__txt .quote, .card5 .card__txt .quote{
+    color: rgba(0, 0, 0, .7);
+}
+
+/* ================================================
+FOOTER
+================================================ */
+.attribution { 
+    text-align: center;
+    margin: 4rem; 
+}
+.attribution a { 
+    color: var(--softMagenta); 
+    text-decoration: none;
+}
+.attribution a i { 
+    font-size: 1.7rem;
+}
