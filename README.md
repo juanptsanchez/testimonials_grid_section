@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Netlify]()
+- Solution URL: [Github](https://github.com/juanptsanchez/testimonials_grid_section)
+- Live Site URL: [Netlify](https://testimonials-css-grid-section.netlify.app/)
 
 ### Built with
 
