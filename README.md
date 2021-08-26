@@ -36,10 +36,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
-
-Use CSS Grid and some Flexbox in my project. 
-
 ### Useful resources
 
 - [Google Fonts](https://fonts.google.com/) - This helped me select the font and use it in my project.
