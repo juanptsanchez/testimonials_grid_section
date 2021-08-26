@@ -48,4 +48,4 @@ Use CSS Grid and some Flexbox in my project.
 
 ## Author
 
-- Website - [Github](https://github.com/juanptsanchez)
+- Juan Pablo Torres Sánchez - [Github](https://github.com/juanptsanchez)
